@@ -17,3 +17,8 @@ var numeroKmPercorrenzaNumb = parseInt(numeroKmPercorrenza);
 var anniPasseggeroNumb = parseInt(anniPasseggero);
 console.log(numeroKmPercorrenzaNumb);
 console.log(anniPasseggeroNumb);
+
+// Prezzo biglietto
+var prezzoBigliettoKm = parseInt(0.21);
+var prezzoBiglietto = parseInt(numeroKmPercorrenzaNumb * prezzoBigliettoKm);
+console.log(prezzoBiglietto);
