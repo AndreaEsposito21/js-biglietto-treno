@@ -5,5 +5,15 @@
 
 
 // Numero km percorrenza
+var numeroKmPercorrenza = prompt('Quanti km vuoi percorrere?');
+console.log(numeroKmPercorrenza);
 
 // Età passeggero
+var anniPasseggero = prompt('Quanti anni hai?');
+console.log(anniPasseggero);
+
+// Parseint con numeri interi
+var numeroKmPercorrenzaNumb = parseInt(numeroKmPercorrenza);
+var anniPasseggeroNumb = parseInt(anniPasseggero);
+console.log(numeroKmPercorrenzaNumb);
+console.log(anniPasseggeroNumb);
