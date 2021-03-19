@@ -22,7 +22,7 @@ console.log(anniPasseggeroNumb);
 var prezzoBiglietto = parseInt(numeroKmPercorrenzaNumb * 0.21);
 console.log(prezzoBiglietto);
 
-var prezzoScontatoOver65 = prezzoBiglietto * 0.4;
-var prezzoScontatoUnder18 = prezzoBiglietto * 0.2;
+var prezzoScontatoOver65 = prezzoBiglietto - (prezzoBiglietto * 0.4);
+var prezzoScontatoUnder18 = prezzoBiglietto - (prezzoBiglietto * 0.2);
 console.log(prezzoScontatoOver65);
 console.log(prezzoScontatoUnder18);
